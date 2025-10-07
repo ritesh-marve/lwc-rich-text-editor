@@ -1,4 +1,3 @@
-```markdown
 # Rich Text Editor LWC
 
 A complete Lightning Web Component (LWC) rich text editor based on the QuillJS library, fully ready to use in any Salesforce org. Recommended for creating and editing emails with all formatting options enabled.
@@ -140,7 +139,7 @@ This component simplifies rich email creation and editing with PDF attachment su
 
 ## Author
 
-Component developed for corporate Salesforce usage by [Your Name or Company].
+Component developed for corporate Salesforce usage by Guilherme Avila.
 
 ---
 
