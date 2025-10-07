@@ -1,0 +1,100 @@
+<template lwc:render-mode="light">
+    <!-- Seção Client Information -->
+    <div class="slds-modal__content slds-scrollable--y">
+        <h3 class="slds-section-title--divider">Client Information</h3>
+        <div class="slds-grid">
+            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-1 slds-large-size--8-of-12">
+                <div class="slds-p-around--medium slds-form" role="list">
+                    <div class="slds-grid slds-wrap">
+
+                        <!-- To -->
+                        <div class="slds-col slds-size--1-of-1">
+                            <c-multi-select-custom label="To" placeholder="Select"
+                                email-options={toOptions} onchange={handleToChange} preselected-values={preselectedTo}></c-multi-select-custom>
+                        </div>
+
+                        <!-- Cc -->
+                        <div class="slds-col slds-size--1-of-1">
+                            <c-multi-select-custom label="Cc" placeholder="Select" email-options={ccOptions}
+                                onchange={handleCcChange} preselected-values={preselectedCc}></c-multi-select-custom>
+                        </div>
+
+                        <!-- Bcc -->
+                        <div class="slds-col slds-size--1-of-1">
+                            <c-multi-select-custom label="Bcc" placeholder="Select" email-options={bccOptions}
+                                onchange={handleBccChange} preselected-values={preselectedBcc}>
+                            </c-multi-select-custom>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="slds-col slds-size--1-of-1">
+                            <lightning-input label="Subject" variant="label-inline" placeholder="Subject" type="text"
+                                value={subject}></lightning-input>
+                        </div>
+
+                        <!-- From -->
+                        <div class="slds-col slds-size--1-of-1">
+                            <lightning-combobox label="From" variant="label-inline" options={fromOptions}
+                                value={fromValue}></lightning-combobox>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <!-- Editor Quill -->
+    <div class="slds-modal__content slds-scrollable--y">
+        <h3 class="slds-section-title--divider">Compose Email</h3>
+        <div class="editor" style="min-height:400px; border:1px solid #ccc; background-color: #fff;"></div>
+    </div>
+
+    <!-- Painel de PDFs -->
+    <template if:true={uploadedFiles}>
+        <div class="pdf-panel slds-m-top_medium">
+            <strong>Attachments:</strong>
+            <ul>
+                <template for:each={uploadedFiles} for:item="pdf">
+                    <li key={pdf.fileName} class="slds-m-bottom_xx-small slds-grid slds-grid_align-spread">
+                        <span>{pdf.fileName}</span>
+                        <button class="slds-button slds-button_icon slds-button_icon-border-filled"
+                            title="Remove {pdf.fileName}" data-filename={pdf.fileName} onclick={removePDF}>
+                            <lightning-icon icon-name="utility:close" alternative-text="Remove" size="x-small"
+                                data-filename={pdf.fileName} onclick={removePDF}>
+                            </lightning-icon>
+                            <span class="slds-assistive-text">Remove {pdf.fileName}</span>
+                        </button>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </template>
+
+    <footer class="slds-modal__footer slds-grid slds-grid_align-end">
+        <div class="slds-button-group" role="group">
+
+            <!-- Attach Files -->
+            <button class="slds-button slds-button_brand" onclick={handleAttachFiles}>
+                Attach Files
+            </button>
+
+            <!-- Select Template -->
+            <button class="slds-button slds-button_brand" onclick={handleSelectTemplate}>
+                Select Template
+            </button>
+
+            <!-- Send -->
+            <button class="slds-button slds-button_brand" onclick={handleSend}>
+                Send
+            </button>
+
+            <!-- Back -->
+            <button class="slds-button slds-button_brand" onclick={handleBack}>
+                Back
+            </button>
+
+        </div>
+    </footer>
+</template>
